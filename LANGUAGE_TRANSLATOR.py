@@ -24,7 +24,48 @@ yoruba_dictionary  = {
 }
 
 igbo_dictionary = {
+    
+   
+}
+
+zulu_dictionary = {
 
 }
 
+hausa_dictionary = {
+   
+}
 
+igala_dictionary = {
+
+}
+
+print("LANGUAGE TRANSLATOR")
+print()
+print("select language you want to translate among : Yoruba, Igbo, Zulu, Hausa, Igala")
+print() 
+language = input("INPUT LANGUAGE HERE : ")
+print()
+if language == "Yoruba".lower().upper():
+   translation = input("Input yoruba word or phrase : ").lower().upper()
+   print(yoruba_dictionary[translation])
+
+elif language == "Igbo".lower().upper():
+    translation = input("Input igbo word or phrase : ").lower().upper()
+    print(igbo_dictionary[translation])
+
+elif language == "Zulu".lower().upper():
+    translation = input("Input zulu word or phrase :").lower().upper()
+    print(zulu_dictionary[translation])
+
+elif language == "Hausa".lower().upper():
+    translation = input("Input hausa word or phrase :").lower().upper()
+    print(hausa_dictionary[translation])
+
+elif language == "Igala".lower().upper():
+    translation = input("Input igala word or phrase :").lower().upper()
+    print(igala_dictionary[translation])
+
+else:
+    print("ERROR")
+    
