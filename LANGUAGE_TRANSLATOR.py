@@ -26,7 +26,7 @@ yoruba_dictionary  = {
 igbo_dictionary = {
     
 }
-#Chukwubuiken Emerald
+#Chukwubuiken Emerald just testing
 zulu_dictionary = {
     "good morning" : "sawubona",
     "come" : "woza",
